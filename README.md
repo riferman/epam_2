@@ -1,20 +1,38 @@
 # epam_2
-With the output from “import this”:
+ In console/terminal, run command: python -c “import this”; (yes, Python accepts commandline arguments)
 
-·        Find how many times each letter is met in the text, print the findings as described below:
+·        Grab the text output, and assign it to a string variable, let’s say <text> in a new python script (you can just copy-paste the text manually);
 
-o   A=100
+·        Take your personal email as a second string and concatenate it with <text>;
 
-o   h=60
+·        Print the count of all symbols in <text>;
 
-o   ,=10 etc…
+·        Print the count all the vowels in <text>;
 
-Avoid tuple printouts
+·        Print each 18th symbol of the string, but do it in case opposite to the original (print A if the letter is a, print a if A etc.) adding the position of that char in the string in format like:
 
-·        Sort the table by alphabet and print it out;
+o   18,
 
-·        Sort the table by the symbols’ frequency count and print it out;
+o   36E
 
-·        Flip this list horizontally and print it out;
+o   54
 
-·        Allow adjusting the limits for table output, i.e. getting only certain amount of entries from the top (the limit number may be set as a global variable).
+o   72I
+
+o   …
+
+ 
+
+Try to avoid parenthesis during the printout, like:
+
+o   (18, ,)
+
+o   (36, E)
+
+o   …
+
+ 
+
+Send the response by the time and date above, with a reply to this message, preserving the Subject.
+
+ 
